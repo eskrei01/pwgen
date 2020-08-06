@@ -2,11 +2,11 @@ import random, string
 
 #This function generates the password
 def pwgen(length):
-    keyval = 2
+    keyval = 1
     for q in range(quantity): #Generates password from user choices
         result_str = ''.join(random.choice(chars) for i in range(length))
         ini_dict = {keyval:result_str}
-        print("Your random password is:", result_str)
+        print("Your random password is:", ini_dict)
         keyval = keyval + 1
     rev_dict = {}
     for key, value in ini_dict.items(): 

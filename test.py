@@ -3,7 +3,7 @@
 # finding duplicate values from a dictionary 
   
 # initialising dictionary 
-ini_dict = {'a':1, 'b':2, 'c':3,} 
+ini_dict = {'a':1, 'b':2, 'c':3, 'd':1} 
   
 # printing initial_dictionary 
 print("initial_dictionary", str(ini_dict)) 

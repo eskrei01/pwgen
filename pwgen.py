@@ -60,5 +60,6 @@ if length >= 15: #Demands password of at least 15 characters
 
     input("Press enter to exit: ")
 
-elif length >= 15:
-    
+else:
+    print("You must create a password with at least 15 characters")
+    input("Press enter to exit: ")
